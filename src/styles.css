@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+.App {
+  font-family: "Silkscreen", cursive;
+  text-align: left;
+
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.employeeDiv {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: bisque;
+  padding: 16px;
+  border: 1px solid rgb(83, 78, 3);
+  border-radius: 8px;
+  box-shadow: -5px 5px rgba(75, 68, 67, 0.459);
+  font-size: 16px;
+  font-smooth: subpixel-antialiased;
+}
