@@ -4,7 +4,7 @@ export default function App() {
   const employeeInfo = [
     {
       pic:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffocusedcollection.com%2F178411440%2Fstock-photo-male-office-worker-working-laptop.html&psig=AOvVaw0ikfT5jViAIf4-LDPI_T8Z&ust=1673769391049000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJDjjoPLxvwCFQAAAAAdAAAAABAE",
+        "https://st.focusedcollection.com/3839757/i/650/focused_178411440-stock-photo-male-office-worker-working-laptop.jpg",
       firstName: "Stephanie",
       lastName: "Butnaru",
       designation: "CEO, Co-Founder",
@@ -14,7 +14,7 @@ export default function App() {
 
     {
       pic:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.opticianonline.net%2Fnews%2Foffice-workers-spend-1-700-hours-a-year-using-a-computer-screen&psig=AOvVaw0ikfT5jViAIf4-LDPI_T8Z&ust=1673769391049000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJDjjoPLxvwCFQAAAAAdAAAAABAJ",
+        "https://assets.markallengroup.com/article-images/178520/office%20worker.jpg",
       firstName: "Claude",
       lastName: "Butnaru",
       designation: "CTO, Co-Founder",
@@ -24,7 +24,7 @@ export default function App() {
 
     {
       pic:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Foffice-worker&psig=AOvVaw0ikfT5jViAIf4-LDPI_T8Z&ust=1673769391049000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJDjjoPLxvwCFQAAAAAdAAAAABAU",
+        "https://media.istockphoto.com/id/1294958620/photo/candid-close-up-of-hispanic-businesswoman-in-office-meeting.jpg?s=612x612&w=0&k=20&c=KuVpI7HS3IbtrsXtLiL5v3_v5ccQbHYp5IR2TOmLQWY=",
       firstName: "Anthony",
       lastName: "Butnaru",
       designation: "CFO",
@@ -34,7 +34,7 @@ export default function App() {
 
     {
       pic:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.news.com.au%2Ffinance%2Fwork%2Ffive-technology-skills-every-office-worker-needs%2Fnews-story%2F42f9a116145722a125da5f095a7eaea0&psig=AOvVaw0ikfT5jViAIf4-LDPI_T8Z&ust=1673769391049000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJDjjoPLxvwCFQAAAAAdAAAAABAd",
+        "https://media.istockphoto.com/id/1205030242/photo/young-mixed-race-businesswoman-smiling-to-camera.jpg?s=612x612&w=is&k=20&c=9u2D1U85YUzs3QU3knBF05UMvSflwjQ4x5lu-tXfPQo=",
       firstName: "Lisa",
       lastName: "Whitehouse",
       designation: "CMO",
@@ -44,7 +44,7 @@ export default function App() {
 
     {
       pic:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.samhealth.org%2Fcareers-education%2Ffind-a-job&psig=AOvVaw0ikfT5jViAIf4-LDPI_T8Z&ust=1673769391049000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJDjjoPLxvwCFQAAAAAdAAAAABAn",
+        "https://media.istockphoto.com/id/1354898581/photo/shot-of-a-young-businessman-using-a-laptop-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=dDDNcvIoG-4VdO01ZlENqODBoNocT434vIFp0duuTZM=",
       firstName: "Buster",
       lastName: "Mackenzi",
       designation: "COO",
