@@ -5,21 +5,21 @@ export default function App() {
     {
       pic:
         "https://st.focusedcollection.com/3839757/i/650/focused_178411440-stock-photo-male-office-worker-working-laptop.jpg",
-      firstName: "Stephanie",
+      firstName: "Claude",
       lastName: "Butnaru",
-      designation: "CEO, Co-Founder",
-      tags: ["Finance", "San Francisco", "Mentor", "Top Management"],
-      age: 45
+      designation: "CEO, Founder",
+      tags: ["Engineering, ", "San Francisco, ", "Mentor, ", "Top Management"],
+      age: 47
     },
 
     {
       pic:
         "https://assets.markallengroup.com/article-images/178520/office%20worker.jpg",
-      firstName: "Claude",
+      firstName: "Stephanie",
       lastName: "Butnaru",
       designation: "CTO, Co-Founder",
-      tags: ["Engineering", "San Francisco", "Mentor", "Top Management"],
-      age: 47
+      tags: ["Finance, ", "San Francisco, ", "Mentor, ", "Top Management, "],
+      age: 45
     },
 
     {
@@ -28,7 +28,7 @@ export default function App() {
       firstName: "Anthony",
       lastName: "Butnaru",
       designation: "CFO",
-      tags: ["Operations", "New York", "Mentor", "Top Management"],
+      tags: ["Operations, ", "New York, ", "Mentor, ", "Top Management"],
       age: 10
     },
 
@@ -38,7 +38,7 @@ export default function App() {
       firstName: "Lisa",
       lastName: "Whitehouse",
       designation: "CMO",
-      tags: ["People", "San Francisco", "Mentor", "Top Management"],
+      tags: ["People, ", "San Francisco, ", "Mentor, ", "Top Management, "],
       age: 39
     },
 
@@ -48,25 +48,27 @@ export default function App() {
       firstName: "Buster",
       lastName: "Mackenzi",
       designation: "COO",
-      tags: ["Product", "New York", "Mentor", "Top Management"],
+      tags: ["Product, ", "New York, ", "Mentor, ", "Top Management, "],
       age: 43
     }
   ];
   return (
-    <div className="App">
-      {employeeInfo.map((employee) => {
-        const { pic, firstName, lastName, designation, tags, age } = employee;
-        return (
-          <Employee
-            pic={pic}
-            firstName={firstName}
-            lastName={lastName}
-            designation={designation}
-            tags={tags}
-            age={age}
-          />
-        );
-      })}
+    <div className="wrapper">
+      <div className="App">
+        {employeeInfo.map((employee) => {
+          const { pic, firstName, lastName, designation, tags, age } = employee;
+          return (
+            <Employee
+              pic={pic}
+              firstName={firstName}
+              lastName={lastName}
+              designation={designation}
+              tags={tags}
+              age={age}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }

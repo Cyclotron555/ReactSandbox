@@ -1,25 +1,38 @@
-@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+.wrapper {
+  margin: -15px -15px 15px -15px;
+  background-color: rgba(82, 66, 22, 0.295);
+}
 .App {
-  font-family: "Silkscreen", cursive;
+  font-family: "Nunito Sans", sans-serif;
   text-align: left;
-
   margin-top: 50px;
   margin-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 8px;
+  max-width: 1000;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgba(114, 128, 105, 0.404);
+}
 
+.employeeDiv {
   max-width: 800px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-}
-.employeeDiv {
-  margin-top: 20px;
   margin-bottom: 20px;
-  background-color: bisque;
+  background-color: rgba(85, 77, 67, 0.4);
   padding: 16px;
   border: 1px solid rgb(83, 78, 3);
   border-radius: 8px;
-  box-shadow: -5px 5px rgba(75, 68, 67, 0.459);
+  box-shadow: -3px 3px rgba(75, 68, 67, 0.459);
   font-size: 16px;
-  font-smooth: subpixel-antialiased;
+}
+.employeeDiv:hover {
+  background-color: rgba(139, 127, 111, 0.4);
+  cursor: pointer;
 }
 img {
   float: left;
